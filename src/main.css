@@ -1,0 +1,288 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Nunito:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Marhey:wght@500&family=Nunito:wght@500&display=swap');
+
+
+.navbar-container-div{
+    
+font-family: 'Nunito', sans-serif;
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    background-color: red;
+}
+
+
+.github-img{
+    height: 90%;
+    border-radius: 50%;
+}
+
+
+.navbar-container-div { 
+    background-image: url(./assets/clouds.jpg);
+    background-size: cover; /* Ensure the background image covers the entire div */
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Add a border for better visibility */
+    position: fixed; /* Fixed position to keep it at the top of the page */
+    top: 0;
+    z-index: 1000; /* Ensure it's on top of other elements */
+    backdrop-filter: blur(30px); /* Adjust the blur amount as needed */
+    background: transparent;
+}
+
+.navbar-anchor{
+    color: black;
+    color: rgb(5, 34, 48);
+    /* border: 2px solid black; */
+    height: 70%;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 10px;
+    
+}
+
+.navbar-login-button{
+    color: white;
+    height: 70%;
+    width: 100px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(36, 109, 206);
+
+}
+
+.navbar-login-button:hover{
+    transition: 0.4s;
+    background-color: rgb(16, 46, 115);
+    /* border: 2px solid black; */
+}
+
+.navbar-links{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.logo-svg{
+    /* border: 1px solid red; */
+    height: 80%;
+    width: 170px;
+    margin-top: 8px;
+}
+
+/* ----------------------------- */
+.back{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/clouds.jpg);
+    background-size: cover;
+    /* object-fit: cover; */
+}
+
+.header-container{
+    /* border: 1px solid black; */
+    /* height: 400px; */
+    /* height: 80vh; */
+    /* height: 1000px; */
+    background-image: url('./assets/ingredients-img2.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.tasty-dish-text{
+    margin-top: 150px;
+    color: white;
+    font-size: 300%;
+    font-family: 'Marhey', sans-serif;
+}
+
+.food-input-field-container{
+    background-color:white;
+    font-family: 'Marhey', sans-serif;
+    height: 60px;
+    width: 600px;
+    border-radius: 7px;
+    border: none;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.food-input-field{
+    background-color: transparent;
+    width: 85%;
+    border: none;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+
+}
+
+.food-search-button{
+    font-family: 'Marhey', sans-serif;
+    cursor: pointer;
+    width: 15%;
+    background-color: rgb(209, 202, 202);
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.food-search-button:hover{
+    transition: 0.3s;
+    background-color: rgb(165, 157, 157);
+
+}
+
+
+.food-input-field::placeholder{
+    color: rgb(49, 48, 48);
+    font-family: 'Marhey', sans-serif;
+}
+.food-input-field:focus{
+    outline: none;
+}
+
+.search-icon-svg{
+    height: 60%;
+    width: 10%;
+    padding-top:10px;
+}
+
+/* ---------------------------- */
+.recipe-cards-container{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* background-color: grey; */
+    margin-top: 10px;
+    /* border: 1px solid white; */
+    /* height: 400px; */
+    width: 100%;
+    gap: 20px;
+    padding-top: 30px;
+}
+.card-div{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid red; */
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+}
+.card-title{
+    text-decoration: none;
+}
+
+.card-div:hover{
+    box-shadow: 4px 4px 0px rgb(187, 42, 42);
+    transition: 0.1s;
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.7); 
+}
+
+.card-image{
+    /* width: 85%; */
+    /* border: 2px solid blue; */
+    height:60%;
+    width:70%;
+    border-radius: 7px;
+    /* background-size: cover; */
+}
+
+
+/* ---------------- */
+
+/* .modify-btn{
+    background-color: pink;
+    height: 300px;
+    border: 2px solid red;
+} */
+
+
+
+/* ------- styling the recipe details page ------------------ */
+
+.recipe-details-container{
+font-family: 'Nunito', sans-serif;
+
+    padding: 20px;
+    color: white;
+    height: 100%;
+    background-color: rgb(54, 40, 109);
+    background-color: rgb(99, 41, 6);
+    background-image: linear-gradient(rgb(99, 41, 6), rgba(229, 255, 0, 0.4));
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+
+}
+
+.hr-div{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(207, 207, 207);
+    margin-bottom: 40px;
+}
+
+.recipe-details-image{
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.7); 
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+/* -----DIALOG BOX------------- */
+.recipe-input-form-container{
+    height: 150px;
+    width: 400px;
+
+}
+.input-field{
+    height: 40px;
+    width: 90%;
+    margin: 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: rgba(60, 64, 67, 0.7) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+
+/* ======================== */
+
+@media (max-width: 640px){
+
+    .food-input-field-container{
+        border: 1px solid red;
+        width: 100%;
+    }
+}
+
+@media (max-width: 499px){
+
+    .recipe-input-form-container{
+        width: 300px;
+    }
+    .input-field{
+        width: 260px;
+    }
+
+}
+
+
+@media (max-width: 499px){
+
+    .recipe-input-form-container{
+        width: 300px;
+    }
+
+}

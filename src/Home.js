@@ -9,7 +9,6 @@ import cloudsImage from './assets/clouds.jpg';
 // import {useState } from 'react';
 import DialogBox from './DialogBox.js';
 
-
 export default function Home(){
 
     const YOUR_APP_ID = 'f643b351';

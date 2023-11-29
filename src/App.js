@@ -3,6 +3,8 @@ import './App.css';
 // import Navbar from './Navbar.js';
 // import Body from './Body.js';
 // import Login from './Login.js';
+import Register from './Register.js';
+import Login from './Login.js';
 
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 // import Signup from './Signup.js';
@@ -15,11 +17,14 @@ function App() {
         <>
            <BrowserRouter>
               <Routes>
+
                   <Route path="/" index element = {<Home/>} />
                   <Route path="/home" element = {<Home/>} />
                   <Route path="/recipe/:title" element={<RecipeDetail/>} />
                   <Route path="/newRecipe" element = {<DialogBox/>} />
                   <Route path="/home/newRecipe" element = {<DialogBox/>} />
+                  <Route path="/register" element = {<Register/>} />
+                  <Route path="/login" element = {<Login/>} />
                   
                   {/* home/newRecipe */}
               </Routes>

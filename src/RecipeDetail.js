@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom';
 import './main.css';
 
 const YOUR_APP_ID = 'f643b351';
-const YOUR_APP_KEY = '5d8b24264585a58d6d09da763807b561';
+const YOUR_APP_KEY = '5d8b24264585a58d6d09da763807b561'; 
 
 function RecipeDetail() {
   const { title } = useParams();
